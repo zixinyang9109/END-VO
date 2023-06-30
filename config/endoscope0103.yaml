@@ -1,0 +1,66 @@
+%YAML:1.0
+---
+
+#Without Rectification
+
+#dataset_dir: /media/yzx/Elements/SCARED_RECONSTRUCTION/Dataset1/keyframe_2/data
+#
+#depth_dir: /media/yzx/Elements/Result_flow/Dataset1/keyframe_2/data/depth
+#
+#depth_scale: 200
+#
+#camera1.fx: 1.03530811e+03
+#camera1.fy: 1.03508765e+03
+#camera1.cx: 5.96955017e+02
+#camera1.cy: 5.20410034e+02
+#
+#camera2.fx: 1.03517419e+03
+#camera2.fy: 1.03497900e+03
+#camera2.cx: 6.88361877e+02
+#camera2.cy: 5.21070801e+02
+#
+#tx: -4.14339018e+00
+#ty: -2.38197036e-02
+#tz: -1.90685259e-03
+#
+#num_features: 5000
+#num_features_init: 100
+#num_features_tracking: 50
+
+# Rectification
+
+dataset_dir: /media/yzx/Elements/SCARED_related/SCARED_RECONSTRUCTION_rectify_black/Dataset2/keyframe_2/data
+
+depth_dir: /media/yzx/Elements/SCARED_related/Result_flow/Dataset2/keyframe_2/data/rec_depth
+
+depth_scale: 200
+resize_scale: 0.5
+gray: 0 # 0 for gray, else for color
+
+camera1.fx: 9.6196965514440774e+02
+camera1.fy: 9.6196965514440774e+02
+camera1.cx: 6.4218746948242188e+02
+camera1.cy: 5.2072456359863281e+02
+
+camera2.fx: 9.6196965514440774e+02
+camera2.fy: 9.6196965514440774e+02
+camera2.cx: 6.4218746948242188e+02
+camera2.cy: 5.2072456359863281e+02
+
+tx: -3.9858819068798962
+#e+03
+ty: 0
+tz: 0
+
+num_features: 300 #5000 #200
+num_features_init: 100
+num_features_tracking: 50 #150 #200
+
+u_min: 91
+u_w: 1183
+v_min: 41
+v_h: 944
+
+region_init: 60 # region covered by pixel
+region_tracking: 65 # covered region needed for tracking
+depth_diff: 8 # depth difference thrshold between prior and current

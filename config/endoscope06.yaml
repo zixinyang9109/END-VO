@@ -1,0 +1,22 @@
+%YAML:1.0
+---
+dataset_dir: /media/yzx/Elements/SCARED_RECONSTRUCTION/Dataset6/keyframe_2/data
+
+
+depth_dir: /media/yzx/Elements/Result_flow/Dataset6/keyframe_2/data/depth
+
+
+camera1.fx: 1.08697437e+03
+camera1.fy: 1.08676831e+03
+camera1.cx: 5.86080322e+02
+camera1.cy: 5.12475891e+02
+
+camera2.fx: 1.08695398e+03
+camera2.fy: 1.08677051e+03
+camera2.cx: 6.86717102e+02
+camera2.cy: 5.11879486e+02
+
+tx: -4.36411285e+00
+ty: 2.14479752e-02
+tz: -3.81391775e-03
+
