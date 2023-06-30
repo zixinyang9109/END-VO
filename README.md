@@ -84,6 +84,8 @@ sudo make install
 
 
 ## Dataset
+We used the SCARED dataset (https://arxiv.org/abs/2101.01133).
+Please feel free to send an email to yy8898@rit.edu for the link to preprocessed dataset.
 
 ## Run
 ```
