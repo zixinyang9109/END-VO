@@ -1,4 +1,5 @@
 # END-VO
+## Introduction
 
 ## Setup
 ### Install dependences required in the CMakeLists.txt
@@ -98,7 +99,7 @@ bin/run_end_stereo --logtostderr #save the poses to your current folder
 
 ## Evaluation
 
-## Suggestions
+
 
 ## Citation
 
@@ -113,4 +114,11 @@ bin/run_end_stereo --logtostderr #save the poses to your current folder
 }
 ```
 
+
 ## Acknowledgements
+
+- [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
+- [Endo-Depth-and-Motion](https://github.com/UZ-SLAMLab/Endo-Depth-and-Motion/tree/main)
+- [Slambook2] (https://github.com/gaoxiang12/slambook2/tree/master)
+- [evo] (https://github.com/MichaelGrupp/evo)
+
