@@ -1,5 +1,8 @@
 # END-VO
+
 ## Introduction
+Code of Endoscope Localization and Dense Surgical Scene Reconstruction for Stereo Endoscopy by Unsupervised Optical Flow and Kanade-Lucas-Tomasi Tracking.
+
 
 ## Setup
 ### Install dependences required in the CMakeLists.txt
@@ -90,15 +93,22 @@ Please feel free to send an email to yy8898@rit.edu for the link to preprocessed
 
 ## Run
 ```
-bin/run_end_stereo --log_dir=.
+bin/run_end_stereo --log_dir=. #save the poses to a specific folder
 or
 bin/run_end_stereo --logtostderr #save the poses to your current folder
 ```
 
 ## Mesh
+Please refer to http://www.open3d.org/docs/0.12.0/tutorial/pipelines/rgbd_integration.html and Endo-Depth-and-Motion](https://github.com/UZ-SLAMLab/Endo-Depth-and-Motion/tree/main)
 
 ## Evaluation
 
+For pose evaluation, please install evo (https://github.com/MichaelGrupp/evo) and go to the eva folder.
+```
+python evo_mydata.py
+python plot_all.py
+```
+Fore reconstruction evaluation, please use (https://www.danielgm.net/cc/).
 
 
 ## Citation
@@ -116,9 +126,8 @@ bin/run_end_stereo --logtostderr #save the poses to your current folder
 
 
 ## Acknowledgements
-
+- [Slambook2] (https://github.com/gaoxiang12/slambook2/tree/master) The project is built on the CH13 code.
 - [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
 - [Endo-Depth-and-Motion](https://github.com/UZ-SLAMLab/Endo-Depth-and-Motion/tree/main)
-- [Slambook2] (https://github.com/gaoxiang12/slambook2/tree/master)
 - [evo] (https://github.com/MichaelGrupp/evo)
 
