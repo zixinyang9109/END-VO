@@ -130,8 +130,8 @@ Fore reconstruction evaluation, please use (https://www.danielgm.net/cc/).
 
 
 ## Acknowledgements
-- [Slambook2] (https://github.com/gaoxiang12/slambook2/tree/master) The project is built on the CH13 code.
+- [Slambook2](https://github.com/gaoxiang12/slambook2/tree/master) The project is built on the CH13 code.
 - [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
 - [Endo-Depth-and-Motion](https://github.com/UZ-SLAMLab/Endo-Depth-and-Motion/tree/main)
-- [evo] (https://github.com/MichaelGrupp/evo)
+- [evo](https://github.com/MichaelGrupp/evo)
 
