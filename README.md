@@ -96,6 +96,8 @@ We used the SCARED dataset (https://arxiv.org/abs/2101.01133).
 Please feel free to send an email to yy8898@rit.edu for the link to preprocessed dataset.
 
 ## Run
+Please change the dataset_dir and depth_dir in the config/endoscope0103.yaml and run:
+
 ```
 bin/run_end_stereo --log_dir=. #save the poses to a specific folder
 or
