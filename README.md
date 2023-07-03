@@ -4,6 +4,10 @@
 Code of Endoscope Localization and Dense Surgical Scene Reconstruction for Stereo Endoscopy by Unsupervised Optical Flow and Kanade-Lucas-Tomasi Tracking.
 
 
+https://github.com/zixinyang9109/END-VO/assets/126973110/ed34978f-c5d3-4050-b67c-cfa3ad367ee6
+
+
+
 ## Setup
 ### Install dependences required in the CMakeLists.txt
 OpenCV 3.1 https://github.com/opencv/opencv/archive/3.1.0.zip
