@@ -1,7 +1,8 @@
 # END-VO
 
 ## Introduction
-Code of Endoscope Localization and Dense Surgical Scene Reconstruction for Stereo Endoscopy by Unsupervised Optical Flow and Kanade-Lucas-Tomasi Tracking.
+
+Code of Endoscope Localization and Dense Surgical Scene Reconstruction for Stereo Endoscopy by Unsupervised Optical Flow and Kanade-Lucas-Tomasi Tracking. This project allows me to master the pipeline of SLAM.
 
 
 https://github.com/zixinyang9109/END-VO/assets/126973110/ed34978f-c5d3-4050-b67c-cfa3ad367ee6
