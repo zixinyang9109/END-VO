@@ -94,7 +94,7 @@ sudo make install
 
 ## Dataset
 We used the SCARED dataset (https://arxiv.org/abs/2101.01133).
-A sample of the preprocessed [dataset](https://drive.google.com/file/d/1gj_dGt9zgMFTODcUD4dDv-MnWeSFqcC_/view?usp=sharing).
+A sample of the processed [dataset](https://drive.google.com/file/d/1gj_dGt9zgMFTODcUD4dDv-MnWeSFqcC_/view?usp=sharing).
 
 ## Run
 Please change the dataset_dir and depth_dir in the config/endoscope0103.yaml and run:
